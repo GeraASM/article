@@ -172,6 +172,7 @@ p {
         gap: var(--spacing-400);
         width: 608px;
         height: 346px;
+        box-shadow: 0 20px 30px var(--grey-200);
     }
 
     .picture {
@@ -225,10 +226,20 @@ p {
         width: 285px;
     }
 
+    .article__img {
+        width: 100%;
+    }
+
     .article__texts {
         width: 365px;
-        height: 220px;
+        height: 210px;
+        border: 1px solid red;
     }
+
+     .article__text {
+        margin: var(--spacing-200) 0;
+    }
+
 
     .social-show {
         right: -8%;
