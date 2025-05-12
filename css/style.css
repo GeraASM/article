@@ -233,7 +233,6 @@ p {
     .article__texts {
         width: 365px;
         height: 210px;
-        border: 1px solid red;
     }
 
      .article__text {
